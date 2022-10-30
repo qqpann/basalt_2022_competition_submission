@@ -144,7 +144,7 @@ Then you can add the correct git remote, and finally submit by doing:
 ```
 cd basalt_2022_competition_submission_template
 # Add AIcrowd git remote endpoint
-git remote add aicrowd git@gitlab.aicrowd.com:<YOUR_AICROWD_USER_NAME>/basalt_2022_competition_submission_template.git
+git remote add aicrowd git@gitlab.aicrowd.com:qiushi/basalt_2022_competition_submission.git
 git push aicrowd main
 
 # Create a tag for your submission and push
@@ -156,7 +156,7 @@ git push aicrowd submission-v0.1
 # then pushing a new tag will **not** trigger a new evaluation.
 ```
 
-You now should be able to see the details of your submission at: `https://gitlab.aicrowd.com/<YOUR_AICROWD_USER_NAME>/basalt_2022_competition_submission_template/issues/`
+You now should be able to see the details of your submission at: <https://gitlab.aicrowd.com/qiushi/basalt_2022_competition_submission/-/issues>
 
 **Best of Luck** :tada: :tada:
 
